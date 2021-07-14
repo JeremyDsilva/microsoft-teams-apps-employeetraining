@@ -5,10 +5,10 @@
   "id": "eb3d22e5-1645-4334-a625-19249df25173",
   "packageName": "com.microsoft.teams.employeetraining",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "cxunicorn",
+    "websiteUrl": "https://cxu.com",
+    "privacyUrl": "https://cxu.com",
+    "termsOfUseUrl": "https://cxu.com"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en",
@@ -80,14 +80,14 @@
     {
       "entityId": "manage-events",
       "name": "Manage events",
-      "contentUrl": "https://<<appDomain>>/manage-events",
-      "websiteUrl": "https://<<appDomain>>/manage-events",
+      "contentUrl": "https://aca4e7900c31.ngrok.io/manage-events",
+      "websiteUrl": "https://aca4e7900c31.ngrok.io/manage-events",
       "scopes": [ "team" ]
     }
   ],
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "ab298bd8-71a0-415b-a217-6de219bbc7f1",
       "scopes": [
         "team"
       ],
@@ -111,10 +111,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "aca4e7900c31.ngrok.io"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>/<<botId>>"
+    "id": "ab298bd8-71a0-415b-a217-6de219bbc7f1",
+    "resource": "api://aca4e7900c31.ngrok.io/ab298bd8-71a0-415b-a217-6de219bbc7f1"
   }
 }

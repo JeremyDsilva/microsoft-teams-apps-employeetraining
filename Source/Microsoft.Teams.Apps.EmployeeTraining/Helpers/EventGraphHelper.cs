@@ -178,11 +178,12 @@ namespace Microsoft.Teams.Apps.EmployeeTraining.Helpers
             var teamsEvent = new Event
             {
                 Subject = eventEntity.Name,
-                Body = new ItemBody
-                {
-                    ContentType = BodyType.Html,
-                    Content = this.GetEventBodyContent(eventEntity),
-                },
+
+                // Body = new ItemBody
+                // {
+                //    ContentType = BodyType.Html,
+                //    Content = this.GetEventBodyContent(eventEntity),
+                // },
                 Attendees = await this.GetEventAttendeesTemplateAsync(eventEntity),
                 OnlineMeetingUrl = eventEntity.Type == (int)EventType.LiveEvent ? eventEntity.MeetingLink : null,
                 IsReminderOn = true,

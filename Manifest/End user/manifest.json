@@ -5,10 +5,10 @@
   "id": "eb3d21e5-1635-4334-a625-19249df25173",
   "packageName": "com.microsoft.teams.employeetraining",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "cxunicorn",
+    "websiteUrl": "https://cxu.com",
+    "privacyUrl": "https://cxu.com",
+    "termsOfUseUrl": "https://cxu.com"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en",
@@ -80,21 +80,21 @@
     {
       "entityId": "discover-events",
       "name": "Discover events",
-      "contentUrl": "https://<<appDomain>>/discover-events",
-      "websiteUrl": "https://<<appDomain>>/discover-events",
+      "contentUrl": "https://aca4e7900c31.ngrok.io/discover-events",
+      "websiteUrl": "https://aca4e7900c31.ngrok.io/discover-events",
       "scopes": [ "personal" ]
     },
     {
       "entityId": "my-events",
       "name": "Your events",
-      "contentUrl": "https://<<appDomain>>/my-events",
-      "websiteUrl": "https://<<appDomain>>/my-events",
+      "contentUrl": "https://aca4e7900c31.ngrok.io/my-events",
+      "websiteUrl": "https://aca4e7900c31.ngrok.io/my-events",
       "scopes": [ "personal" ]
     }
   ],
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "ab298bd8-71a0-415b-a217-6de219bbc7f1",
       "scopes": [
         "personal"
       ],
@@ -106,7 +106,7 @@
   ],
   "composeExtensions": [
     {
-      "botId": "<<botId>>",
+      "botId": "ab298bd8-71a0-415b-a217-6de219bbc7f1",
       "canUpdateConfiguration": false,
       "commands": [
         {
@@ -143,10 +143,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "aca4e7900c31.ngrok.io"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>/<<botId>>"
+    "id": "ab298bd8-71a0-415b-a217-6de219bbc7f1",
+    "resource": "api://aca4e7900c31.ngrok.io/ab298bd8-71a0-415b-a217-6de219bbc7f1"
   }
 }
